@@ -10,7 +10,6 @@ import { Link, useLocation, useHistory } from "react-router-dom";
 
 import { AuthContext } from "../../store/auth-context";
 import "../Form.css";
-import registrationImg from "../../images/undraw_unlock_-24-mb.svg";
 import SocialLogin from "../../components/SocialLogin/SocialLogin";
 import toastCreator from "../../hooks/toastifyCreator";
 
@@ -64,7 +63,7 @@ const Login = () => {
         <Row>
           <Col lg={6}>
             <img
-              src={registrationImg}
+              src="https://i.ibb.co/X8CffYd/login.jpg"
               alt="registration"
               className="img-fluid"
             />

@@ -123,7 +123,7 @@ const Register = () => {
             <SocialLogin />
           </Col>
           <Col lg={6}>
-            <img src={loginImg} alt="login" className="img-fluid" />
+            <img src="https://i.ibb.co/mRGwvy8/sign-page-interface-concept-user-login-form-ui-new-account-registration-protection-information-moder.jpg" alt="login" className="img-fluid" />
           </Col>
         </Row>
       </Container>
