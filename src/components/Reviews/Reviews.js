@@ -9,7 +9,7 @@ const Reviews = () => {
     //Load all user reviews
     const loadReviews = async () => {
       const response = await fetch(
-        `http://localhost:8000/reviews`
+        `https://mysterious-dawn-17056.herokuapp.com/reviews`
       );
       const responseData = await response.json();
       setReviews(responseData);

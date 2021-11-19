@@ -19,7 +19,7 @@ const MakeAdmin = () => {
   //Form submit handler
   const onSubmit = async (data, event) => {
     const response = await fetch(
-      "http://localhost:8000/users/admin",
+      "https://mysterious-dawn-17056.herokuapp.com/users/admin",
       {
         method: "PUT",
         headers: {

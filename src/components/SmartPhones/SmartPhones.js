@@ -8,7 +8,7 @@ const SmartPhones = () => {
   useEffect(() => {
     const loadPhones = async () => {
       const response = await fetch(
-        "http://localhost:8000/phones"
+        "https://mysterious-dawn-17056.herokuapp.com/phones"
       );
       const responseData = await response.json();
       const featuredPhones = responseData.slice(0, 6);

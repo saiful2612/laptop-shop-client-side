@@ -6,7 +6,7 @@ const ManageProduct = () => {
 
   const loadAllPhones = useCallback(async () => {
     const response = await fetch(
-      `http://localhost:8000/phones`
+      `https://mysterious-dawn-17056.herokuapp.com/phones`
     );
     const responseData = await response.json();
     setPhones(responseData);
@@ -21,7 +21,7 @@ const ManageProduct = () => {
   const handleDelete = async (_id) => {
     if (window.confirm("Are You sure you want to delete the product?")) {
       const response = await fetch(
-        `http://localhost:8000/phones/${_id}`,
+        `https://mysterious-dawn-17056.herokuapp.com/phones/${_id}`,
         {
           method: "DELETE",
         }

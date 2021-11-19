@@ -26,7 +26,7 @@ const PhoneDetails = () => {
     //Load single which was clicked by user
     const loadSingleProduct = async () => {
       const response = await fetch(
-        `http://localhost:8000/phones/${phoneID}`
+        `https://mysterious-dawn-17056.herokuapp.com/phones/${phoneID}`
       );
       const responseData = await response.json();
       setPhone(responseData);
@@ -53,7 +53,7 @@ const PhoneDetails = () => {
       ...phone,
     };
     delete userOrder._id;
-    await fetch("http://localhost:8000/orders", {
+    await fetch("https://mysterious-dawn-17056.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

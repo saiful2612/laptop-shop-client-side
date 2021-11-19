@@ -22,7 +22,7 @@ const AddReview = () => {
   const onSubmit = async (data, event) => {
     const reviewData = { ...data, email: user.email, image: user.photoURL };
     const response = await fetch(
-      "http://localhost:8000/reviews",
+      "https://mysterious-dawn-17056.herokuapp.com/reviews",
       {
         method: "POST",
         headers: {

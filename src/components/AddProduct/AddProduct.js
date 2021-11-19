@@ -13,7 +13,7 @@ const AddNewProduct = () => {
   //Form submit handler
   const onSubmit = async (data) => {
     const response = await fetch(
-      "http://localhost:8000/phones",
+      "https://mysterious-dawn-17056.herokuapp.com/phones",
       {
         method: "POST",
         headers: {

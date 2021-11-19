@@ -1,24 +1,16 @@
-# Phone Shop - Best Smartphone solution
+# GadgetSHOP - Your smart solution
 
-Phone Shop is a smartphone related online shop where people are able to find the best smartphones around the world to buy. An user can also register, manage his/her orders and can review the smartphones they bought.
+GadgetShop is a laptop related online shop where people are able to find the best laptops around the world to buy. An user can also register, manage his/her orders and can review the llaptops they bought.
 
-## Live link of Phone Shop: [https://phone-shop-cb821.web.app/](https://phone-shop-cb821.web.app/)
+## Live link of Phone Shop: https://laptop-shop-authentication.web.app
 
-#### Phone Shop Client Code Link: [https://github.com/programming-hero-web-course-4/niche-website-client-side-Rupok-Koiry](https://github.com/programming-hero-web-course-4/niche-website-client-side-Rupok-Koiry)
+#### GadgetSHOP Client Code Link: https://github.com/programming-hero-web-course-4/niche-website-client-side-saiful2612
 
-#### Phone Shop Server Code Link: [https://github.com/programming-hero-web-course-4/niche-website-server-side-Rupok-Koiry](https://github.com/programming-hero-web-course-4/niche-website-server-side-Rupok-Koiry)
+#### GadgetSHOP Server Code Link: https://github.com/programming-hero-web-course-4/niche-website-server-side-saiful2612
 
-#### Phone Shop Heroku Smartphones API: [http://localhost:8000/phones](http://localhost:8000/phones)
+## Features of GadgetSHOP
 
-#### Phone Shop Heroku Orders API: [http://localhost:8000/orders](http://localhost:8000/orders)
-
-#### Phone Shop Heroku Reviews API: [http://localhost:8000/reviews](http://localhost:8000/reviews)
-
-#### Phone Shop Heroku Users API: [http://localhost:8000/users](http://localhost:8000/users)
-
-## Features of Phone Shop
-
-- Phone Shop is created with Node, Express, MongoDB, Firebase, React & Bootstrap framework
+- GAdgetSHOP is created with the Node, Express, MongoDB, Firebase, React & Bootstrap framework
 - User can register and manage their orders
 - Registered user can review the product
 - There is an admin panel where admin can manage all users orders & products

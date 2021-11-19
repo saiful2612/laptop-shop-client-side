@@ -5,7 +5,7 @@ const ManageAllOrders = () => {
   const [orders, setOrders] = useState([]);
   const loadOrders = async () => {
     const response = await fetch(
-      "http://localhost:8000/orders"
+      "https://mysterious-dawn-17056.herokuapp.com/orders"
     );
     const responseData = await response.json();
     setOrders(responseData);
@@ -19,7 +19,7 @@ const ManageAllOrders = () => {
   const handleDelete = async (_id) => {
     if (window.confirm("Are You sure you want to delete the order?")) {
       const response = await fetch(
-        `http://localhost:8000/orders/${_id}`,
+        `https://mysterious-dawn-17056.herokuapp.com/orders/${_id}`,
         {
           method: "DELETE",
         }
@@ -33,7 +33,7 @@ const ManageAllOrders = () => {
   //Shipped order handler
   const handleShipped = async (_id) => {
     const response = await fetch(
-      `http://localhost:8000/orders/${_id}`,
+      `https://mysterious-dawn-17056.herokuapp.com/orders/${_id}`,
       {
         method: "PATCH",
         headers: {

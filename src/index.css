@@ -39,13 +39,15 @@ code {
 }
 
 .btn-style:hover {
-  background: #292560;
+  background: #000000;
   color: #fff;
   transition: 0.3s ease-out;
 }
 
+/* #292560 */
+
 .btn-style-secondary {
-  background: #292560;
+  background: #000000;
   color: #fff;
   padding: 15px 28px;
   font-size: 14px;
@@ -59,7 +61,7 @@ code {
 }
 
 .btn-style-primary {
-  color: #292560;
+  color: #000000;
   font-size: 15px;
   border: 2px solid transparent;
 }
@@ -87,7 +89,7 @@ code {
   font-size: 42px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #292560;
+  color: #000000;
   transition: all 0.2s;
   letter-spacing: 2px;
   text-align: center;
