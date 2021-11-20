@@ -39,7 +39,7 @@ const ManageProduct = () => {
   //Manage product page
   return (
     <section className={classes.orders}>
-      <h2 className="section-heading display-4 m-0">All Smartphones</h2>
+      <h2 className="section-heading display-4 m-0">All Laptops</h2>
       <div className="separator-2"></div>
       <div className="container-fluid">
         <div className="row">
@@ -54,7 +54,7 @@ const ManageProduct = () => {
                     <tr>
                       <th style={{ minWidth: "50px" }}>ID</th>
                       <th style={{ minWidth: "50px" }}>Image</th>
-                      <th style={{ minWidth: "200px" }}>Phone Name</th>
+                      <th style={{ minWidth: "200px" }}>Laptop Name</th>
                       <th style={{ minWidth: "200px" }}>Processor</th>
                       <th style={{ minWidth: "150px" }}>ScreenSize</th>
                       <th style={{ minWidth: "150px" }}>Battery</th>

@@ -33,7 +33,7 @@ const AddNewProduct = () => {
         <Form onSubmit={handleSubmit(onSubmit)}>
           <Row>
             <Col md={6}>
-              <FloatingLabel label="Smartphone Name" className="label mb-3">
+              <FloatingLabel label="Laptop Name" className="label mb-3">
                 <Form.Control
                   placeholder="Smartphone Name"
                   className="input"
@@ -44,7 +44,7 @@ const AddNewProduct = () => {
                 )}
               </FloatingLabel>
               <FloatingLabel
-                label="Smartphone Description"
+                label="Laptop Description"
                 className="label mb-3"
               >
                 <Form.Control
@@ -99,7 +99,7 @@ const AddNewProduct = () => {
               </FloatingLabel>
             </Col>
             <Col md={6}>
-              <FloatingLabel label="Smartphone Image" className="label mb-3">
+              <FloatingLabel label="Laptop Image" className="label mb-3">
                 <Form.Control
                   placeholder="Smartphone Image"
                   className="input"
